@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=885
+
+" Format (i.e., gqq) a block of lines above/below the current line from the
+" line matching <beg_pattern> to the line matching <end_pattern>; intervening
+" lines of the block should match <in_pattern>, if given.
+"
+
+" EXAMPLE SETUP
+" Format block (do a 'gq' format) on a C-style statement (i.e., from cursor's
+" line to line ending with ';'):
+"
+"	map gqs :call FormatBlock('', ';$', '')<CR>
+
+Primarily used as a "helper" function to FormatComment ( vimscript #886 )
